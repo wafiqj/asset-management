@@ -36,6 +36,14 @@
             overflow-y: auto;
             z-index: 1000;
             box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+            /* Hide scrollbar while keeping scroll functionality */
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .sidebar::-webkit-scrollbar {
+            display: none;
         }
 
         .sidebar-brand {
